@@ -13,6 +13,8 @@ import java.sql.SQLException;
  * @author lenovo
  * @date 2023/10/02  17:11
  */
+
+//classtwo admin是数据库名
 public class ChangeInfoDao {
     /*
      * 删除某个学生信息
