@@ -9,6 +9,8 @@
 关于API的更多信息请参照操作文档
 >https://cloud.baidu.com/doc/FACE/s/yk37c1u4t
 
+在src\main\webapp\img下存放待上传或查找的照片<br><br><br>
+
     If( you think this is useful) {
         Please star it,
         thank you!
