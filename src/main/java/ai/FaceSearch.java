@@ -40,7 +40,12 @@ public class FaceSearch {
             map.put("image", Base64Util.encode(data));     // BASE64字符串
             map.put("image_type", "BASE64");
             map.put("liveness_control", "NONE");
+            
+            
+            //需要填入自己个人的用户组名
             map.put("group_id_list", "g_1");
+
+            
             map.put("quality_control", "NORMAL");
             map.put("match_threshold", 80);
 
