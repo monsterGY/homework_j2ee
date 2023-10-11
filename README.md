@@ -1,4 +1,4 @@
-# hw_j2ee
+# 学生信息管理+人脸搜索
 <h2>j2ee+idea+maven+mysql+百度云人脸搜索API</h2><br>
 
 人脸搜索API：https://cloud.baidu.com/product/face<br><br>
