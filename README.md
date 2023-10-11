@@ -1,5 +1,5 @@
 # 学生信息管理+人脸搜索
-<h2>j2ee+idea+maven+mysql+百度云人脸搜索API</h2><br>
+<h2>j2ee+idea+servlet+maven+jsp+mysql+百度云人脸搜索API</h2><br>
 
 人脸搜索API：https://cloud.baidu.com/product/face<br><br>
 注册后  <br>
