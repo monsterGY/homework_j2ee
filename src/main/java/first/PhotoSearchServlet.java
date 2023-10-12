@@ -31,7 +31,12 @@ public class PhotoSearchServlet extends HttpServlet {
             throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         String filePath = request.getParameter("filePath");
+        
+                
+        //此处为绝对路径，请自行修改为你自己的图片存放地址
         filePath="E:\\j2ee\\hw_maven\\src\\main\\webapp\\img\\"+filePath;
+        
+                
         if(filePath!=null&&!filePath.equals("")) {
             System.out.println(filePath);
             // 根据图片路径调用人脸搜索api获得匹配结果
