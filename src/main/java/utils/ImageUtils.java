@@ -42,8 +42,11 @@ public class ImageUtils {
      */
     public static void uploadImg(String id, String imgFile) {
         //1，将上传的照片放到服务器中
+        //此处为绝对路径，请自行修改为你自己的图片存放地址
         imgFile="E:\\j2ee\\hw_maven\\src\\main\\webapp\\img\\"+imgFile;
         byte[] data = imgToBytes(imgFile);
+        
+        //此处为绝对路径，请自行修改为你自己的tomcat中对应此项目工件下的图片存放地址
         String outputImg = "D:\\tomcat\\apache-tomcat-9.0.80\\webapps\\hw_maven_war\\img\\"+id+".jpg";
         try {
             FileOutputStream fos = new FileOutputStream(new File(outputImg));
@@ -68,7 +71,11 @@ public class ImageUtils {
             Map<String, Object> map = new HashMap<>();
             map.put("image", base64Img);
             map.put("image_type", "BASE64");
+
+            //此处组名注意修改个人百度云中设置的组名
             map.put("group_id", "g_1");
+
+            
             map.put("user_id", id);
             map.put("user_info", "");
             map.put("liveness_control", "NONE");
