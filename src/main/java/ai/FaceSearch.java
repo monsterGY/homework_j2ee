@@ -20,7 +20,6 @@ public class FaceSearch {
     public static String search(String imgFile) {
 
         // 读取一张图片，以二进制形式，再转化为BASE64编码
-        //String imgFile = "D:\\Program\\J2EE\\Projects\\SearchPage\\WebContent\\img\\zzm2.jpg";
         InputStream in = null;
         byte[] data = null;
         // 读取图片字节数组
@@ -42,7 +41,7 @@ public class FaceSearch {
             map.put("liveness_control", "NONE");
             
             
-            //需要填入自己个人的用户组名
+            //"g_1"为我百度云的组名，你需要填入自己个人的用户组名
             map.put("group_id_list", "g_1");
 
             
